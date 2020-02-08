@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navba {
+    opacity: 10;
+}
+
+.bgimg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* Preserve aspet ratio */
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.fa {
+    padding: 5px;
+    font-size: 20px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa-facebook {
+    color: rgb(0, 119, 255);
+}
+
+.fa-linkedin {
+    color: rgb(29, 0, 160);
+}
+
+.fa-github {
+    color: black;
+}
+
+.fa-youtube {
+    color: crimson;
+}
+
+.fa-google {
+    color: rgb(248, 0, 0);
+}
+
+.bodyimg {
+    margin-top: 3%;
+    position: relative;
+}
