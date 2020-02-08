@@ -4,17 +4,13 @@
     box-sizing: border-box;
 }
 
-.navba {
-    opacity: 10;
+body {
+    background-image: url("./img/pic-2.jpg");
+    overflow-y: hidden;
 }
 
-.bgimg {
-    position: fixed;
-    top: 0;
-    left: 0;
-    /* Preserve aspet ratio */
-    min-width: 100%;
-    min-height: 100%;
+.navba {
+    opacity: 10;
 }
 
 .fa {
@@ -47,6 +43,27 @@
 }
 
 .bodyimg {
-    margin-top: 3%;
+    height: 80vh;
+    width: 70vw;
+    margin: 5rem auto;
     position: relative;
+    overflow-x: hidden;
+}
+
+.centered {
+    text-align: center;
+    margin-top: 22%;
+    color: rgba(0, 0, 0, 0.507);
+}
+
+.move:hover {
+    animation: forwards;
+}
+
+.IamUmesh {
+    text-decoration: underline;
+}
+
+.interactiveWebDevelopment {
+    font-size: 20px;
 }
