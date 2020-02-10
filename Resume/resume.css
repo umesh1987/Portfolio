@@ -4,9 +4,17 @@
     box-sizing: border-box;
 }
 
-body {
-    background-image: url("./img/pic-2.jpg");
-    overflow-y: hidden;
+.backgroundImg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    z-index: -111;
+    text-align: center;
 }
 
 .navba {
@@ -43,15 +51,21 @@ body {
 }
 
 .bodyimg {
-    height: 70vh;
-    width: 60vw;
+    height: 80vh;
+    width: 70vw;
     margin: 5rem auto;
+    position: relative;
+    overflow-x: hidden;
 }
 
 .centered {
     text-align: center;
     margin-top: 22%;
     color: rgba(0, 0, 0, 0.507);
+}
+
+.move:hover {
+    animation: forwards;
 }
 
 .IamUmesh {
